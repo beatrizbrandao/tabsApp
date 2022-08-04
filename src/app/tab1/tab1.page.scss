@@ -1,0 +1,69 @@
+span{
+  margin-right: 25px;
+}
+
+
+ion-content{
+  --background: url('../../assets/gif/nuvem.gif') no-repeat center center / cover;
+
+  background-size:100%;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  height:100%;
+  width:100%;
+}
+
+#container {
+  display: grid;
+  grid: repeat(2, 60px) / auto-flow 80px;
+}
+
+#container > div {
+  background-color: #8ca0ff;
+  width: 50px;
+  height: 50px;
+}
+
+
+ion-icon {
+  color:yellow;
+  font-size: 25px;
+}
+
+
+
+ion-card,
+ion-item {
+   --background: #709bc5;
+   color: white;
+}
+
+
+
+ion-card-title{
+  color: white;
+}
+
+h6{
+  font-size: 12px;
+  color:#8abbe9;
+}
+
+.icone{
+  margin-right: 10px;
+  padding-left: 10px;
+}
+
+.container{
+  color: white;
+  text-align: center;
+  font-family:sans-serif;
+  padding-top:30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h4{
+  font-size: 60px;
+ margin-left: 10px;
+}
